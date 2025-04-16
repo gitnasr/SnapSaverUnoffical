@@ -1,6 +1,6 @@
 {
   "name": "snapsaver-downloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Unofficial Package to Download From Facebook, TikTok and Instagram. Relais on SnapSave",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,9 +22,9 @@
   "author": "gitnasr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gitnasr/snapsaver-dl/issues"
+    "url": "https://github.com/gitnasr/SnapSaverUnoffical/issues"
   },
-  "homepage": "https://github.com/gitnasr/snapsaver-dl#readme",
+  "homepage": "https://github.com/gitnasr/SnapSaverUnoffical#readme",
   "dependencies": {
     "cheerio": "^1.0.0"
   },
