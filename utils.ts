@@ -4,8 +4,7 @@
  */
 
 // Facebook URLs including watch, reels, videos, posts and fb.watch short links
-export const facebookRegex = /^https?:\/\/(?:www\.|web\.|m\.)?facebook\.com\/(watch(\?v=|\/\?v=)[0-9]+(?!\/)|reel\/[0-9]+|[a-zA-Z0-9.\-_]+\/(videos|posts)\/[0-9]+|[0-9]+\/(videos|posts)\/[0-9]+|[a-zA-Z0-9]+\/(videos|posts)\/[0-9]+|share\/(v|r)\/[a-zA-Z0-9]+\/?)([^/?#&]+).*$|^https:\/\/fb\.watch\/[a-zA-Z0-9]+$/;
-
+export const facebookRegex = /^https?:\/\/(?:www\.|web\.|m\.)?facebook\.com\/(?:(?:watch(?:\?v=|\/\?v=)[0-9]+(?!\/))|(?:reel\/[0-9]+)|(?:[a-zA-Z0-9.\-_]+\/(?:videos|posts)\/[0-9]+)|(?:[0-9]+\/(?:videos|posts)\/[0-9]+)|(?:share\/(?:v|r)\/[a-zA-Z0-9\-_]+\/?)|(?:[a-zA-Z0-9.\-_]+))(?:[^/?#&]+)?.*$|^https:\/\/fb\.watch\/[a-zA-Z0-9\-_]+$/;
 // Instagram URLs for posts, reels, stories, tv and share links
 export const instagramRegex = /^https?:\/\/(?:www\.)?instagram\.com\/(?:p|reel|reels|tv|stories|share)\/([^/?#&]+).*/;
 
